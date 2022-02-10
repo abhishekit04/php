@@ -9,6 +9,6 @@ function sayHi($name){  // with parameter
 }
 
 // sayHello();
-sayHi("Sonu");
+sayHi("Abhishek");
 
 ?>
