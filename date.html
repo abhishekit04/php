@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>date</title>
+    <style>
+        p {
+            text-align: right;
+            font-family: Helvetica;
+            color: blue;
+            border-style: dashed;
+            padding: 12px 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <br>
+    <p id="date"></p>
+    <script>
+        document.write("Today is " + Date());
+
+        setInterval(() => {
+            var date = new Date();
+            // console.log(date);
+            document.getElementById('date').innerText = date;
+        }, 1000);
+    </script>
+</body>
+
+</html>
